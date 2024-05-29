@@ -1,6 +1,4 @@
 let globalCleanData;
-const graphs = [ "Représentation d'une World Map montrant les emplacements des séismes avec des cercles dimensionnés par la magnitude."
-    ]
 
 async function fetchData() {
     const url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
